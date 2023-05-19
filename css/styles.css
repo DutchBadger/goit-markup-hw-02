@@ -1,0 +1,115 @@
+body {
+  background-color: #ffffff;
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2e2f42;
+}
+.navigation {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.navigation a:hover {
+  text-decoration: underline;
+  color: #4d5ae5;
+}
+.main-link {
+  text-transform: uppercase;
+  line-height: 1.16;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+.studio-name {
+  color: #4d5ae5;
+}
+
+.contact-information {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.contact-information a:hover {
+  text-decoration: underline;
+  color: #4d5ae5;
+}
+.motto {
+  background-color: #2e2f42;
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button:hover {
+  background-color: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+}
+h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #2e2f42;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #434455;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+.team-list li {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #2e2f42;
+}
+
+.filter-pr {
+  cursor: pointer;
+  background-color: #e7e9fc;
+  color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.filter-pr-all {
+  cursor: pointer;
+  background-color: #404bbf;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.filter-pr:hover {
+  background-color: #404bbf;
+}
