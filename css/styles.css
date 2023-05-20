@@ -16,11 +16,24 @@ body {
   text-decoration: none;
 }
 .list {
-  text-decoration: none;
+  list-style: none;
 }
 
 /* Header */
 
+.main-link {
+  text-transform: uppercase;
+  line-height: 1.16;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+}
+.studio-name {
+  color: #2e2f42;
+}
 .menu-list {
   list-style: none;
   font-size: 16px;
@@ -31,23 +44,14 @@ body {
 }
 
 .menu-list a:hover {
-  text-decoration: underline;
+  color: #404bbf;
+}
+.menu-list a:active {
   color: #404bbf;
 }
 
-nav > a {
-  text-transform: uppercase;
-  line-height: 1.16;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: var(--brand-color);
-}
-
-.studio-name {
-  color: #2e2f42;
+.contact-information-general {
+  font-style: normal;
 }
 
 .contact-information {
@@ -60,16 +64,18 @@ nav > a {
 }
 .contact-information a:hover {
   color: #404bbf;
+}
 
-  .contact-information a:active {
-    color: #404bbf;
-  }
+.contact-information a:active {
+  color: #404bbf;
 }
 
 /* Main index*/
 
+.motto-background {
+  background-color: var(--normal-color);
+}
 .motto {
-  background-color: #2e2f42;
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
@@ -87,16 +93,13 @@ nav > a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button:hover {
   background-color: #404bbf;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .button:focus {
   background-color: #404bbf;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .about-us .our-products {
@@ -125,6 +128,17 @@ nav > a {
   letter-spacing: 0.02em;
 }
 
+.our-products {
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--normal-color);
+  text-decoration: none;
+}
+
 .team {
   background-color: #f4f4fd;
 }
@@ -139,6 +153,15 @@ nav > a {
 }
 
 .team-list li {
+  background-color: #ffffff;
+}
+
+.personality-headline {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: var(--normal-color);
+  letter-spacing: 0.02em;
   background-color: #ffffff;
 }
 
@@ -178,7 +201,7 @@ nav > a {
   color: #ffffff;
   background-color: #404bbf;
 }
-.filter-pr:active {
+.filter-pr:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
