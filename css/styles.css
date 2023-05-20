@@ -43,10 +43,10 @@ body {
   color: var(--normal-color);
 }
 
-.menu-list a:hover {
+.menu-list:hover {
   color: #404bbf;
 }
-.menu-list a:active {
+.menu-list:focus {
   color: #404bbf;
 }
 
@@ -62,11 +62,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
-.contact-information a:hover {
+.contact-information:hover {
   color: #404bbf;
 }
 
-.contact-information a:active {
+.contact-information:focus {
   color: #404bbf;
 }
 
@@ -152,7 +152,7 @@ body {
   color: var(--normal-color);
 }
 
-.team-list li {
+.team-list {
   background-color: #ffffff;
 }
 
